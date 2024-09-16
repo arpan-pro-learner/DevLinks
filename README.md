@@ -1,36 +1,89 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Link Sharing App
 
-## Getting Started
+This project is a simple link-sharing application built with Next.js. Users can create, edit, delete, and preview links with drag-and-drop functionality. The app has a fully responsive design and can be viewed across different screen sizes.
 
-First, run the development server:
+## Components Overview
 
+### 1. **Footer.jsx**
+   - Contains a `Save` button that allows users to save their changes. The placement and inclusion of this button was an assumption based on the functionality of the app.
+   
+### 2. **Header.jsx**
+   - Displays the main header of the application. It may include navigation or a title based on the design of the app.
+   
+### 3. **LinkEditor.jsx**
+   - This component allows users to input or edit links. It contains fields for link URL and title, with validation to ensure the URL pattern is correct.
+   
+### 4. **LinkItem.jsx**
+   - Represents individual link items in the list. It contains logic for displaying the links, their titles, and potentially a preview.
+   
+### 5. **MobilePreview.jsx**
+   - Provides a preview of how the links will appear on a mobile device. This helps ensure the user experience is optimized for smaller screens.
+   
+### 6. **ProfileDetails.jsx**
+   - Displays the user’s profile details. It could include fields like profile picture, username, and bio.
+
+## Assumptions and Design Decisions
+
+- **Save Button**: The decision to add a `Save` button in the `Footer.jsx` was made based on the need for users to save their changes easily.
+- **Preview Button**: Similarly, the addition of a preview functionality was based on the assumption that users would want to see how their links appear before finalizing them.
+
+
+## How to Run the Project Locally
+
+### 1. Clone the Repository
 ```bash
+git clone https://github.com/arpan-pro-learner/DevLinks.git
+
+cd Devlinks
+
+## How to Run the Project Locally
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/your-username/link-sharing-app.git
+cd link-sharing-app
+
+
+## 2. Install Dependencies
+Make sure you have Node.js installed, then run:
+
+bash
+Copy code
+npm install
+
+
+## 3. Start the Development Server
+To run the project locally, use:
+
+bash
+Copy code
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+The application will be available at http://localhost:3000.
+
+## 4. Build for Production
+To create a production build, use:
+
+bash
+Copy code
+npm run build
+
+## 5. Preview Production Build
+You can preview the production build locally using:
+
+bash
+Copy code
+npm run start
 ```
+## Technologies Used
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Next.js**: Framework for server-rendered React applications.
+- **Tailwind CSS**: Utility-first CSS framework used for styling the app.
+- **React**: JavaScript library for building user interfaces.
+- **HTML/CSS**: Semantic HTML and modern CSS techniques were used to structure and style the components.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+#### Thanks for Checking out this project 👍
 
-## Learn More
+![thank you gif](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExaXVobHR0NHlkaWptZjRjZHduajRtMTg4OWY4ZjRzNXR5d2JjdWplYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/uWlpPGquhGZNFzY90z/giphy.gif)
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+ **Linkedin**: [Lets Connect](https://www.linkedin.com/in/webdevarpan/) 
