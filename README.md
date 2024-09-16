@@ -1,4 +1,4 @@
-# Link Sharing App
+# Link Sharing App - Devlinks
 
 This project is a simple link-sharing application built with Next.js. Users can create, edit, delete, and preview links with drag-and-drop functionality. The app has a fully responsive design and can be viewed across different screen sizes.
 
