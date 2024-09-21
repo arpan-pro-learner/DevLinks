@@ -81,6 +81,15 @@ npm run start
 - **React**: JavaScript library for building user interfaces.
 - **HTML/CSS**: Semantic HTML and modern CSS techniques were used to structure and style the components.
 
+## Update 2.0 - Devlinks
+
+- **React Dnd(Drag & Drop)**: As it was main requirment i have taken care of it and implemented it this time 
+- **Error Messages**: Added react toastify toast messages in place of boring alerts
+- **Fix App Layout**: Fixed the layout and made it as close as figma design
+- **Added Profile and Preview**: As it was not in the design but i moved one step ahead and implemented that by myself
+- **Added Favicon**: As it was a small step but to take care of the design i added the favicon to the project so it look more on point
+- **Link #number fixed**: As per the design i have implemented the link numbers to be appear in specific order 
+- **Added Proper Responsiveness**: As per the layout and design tried my best to implent it as it was shown
 
 #### Thanks for Checking out this project 👍
 
