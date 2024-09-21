@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 export default function MobilePreview({ links }) {
   return (
-    <div className='bg-white p-6 rounded-lg shadow flex justify-center'>
+    <div className='bg-white p-6 rounded-lg shadow flex justify-center lg:h-full'>
       <div className="relative w-[308px] h-[632px]">
         <Image
           src="/images/illustration-phone-mockup.svg"
@@ -42,6 +42,7 @@ export default function MobilePreview({ links }) {
     </div>
   );
 }
+
 
 function getLinkColor(platform) {
   platform = platform?.toLowerCase() || '';
